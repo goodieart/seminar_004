@@ -1,9 +1,9 @@
 ﻿using static System.Console;
 
-WriteLine("Введите A");
+Write("Введите число A: ");
 float a = float.Parse(ReadLine()!);
 
-WriteLine("Введите B");
+Write("Введите степень B: ");
 int b = int.Parse(ReadLine()!);
 
 Write($"A^B = {pow(a,b)}");
