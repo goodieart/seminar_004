@@ -1,8 +1,8 @@
 ﻿using static System.Console;
 
-int[] array = array_create();
+array_create_and_print();
 
-int[] array_create()
+void array_create_and_print()
 {
     int[] result = new int[8];
     Write("[");
@@ -12,5 +12,4 @@ int[] array_create()
         Write($"{result[i]},");
     }
     Write("\b]");
-    return result;
 }
